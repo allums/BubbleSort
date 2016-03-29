@@ -1,0 +1,26 @@
+{
+  "name": "bubblesort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bubblesort.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allums/BubbleSort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allums/BubbleSort/issues"
+  },
+  "homepage": "https://github.com/allums/BubbleSort#readme"
+}
