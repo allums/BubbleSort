@@ -1,8 +1,8 @@
 window.onload = function() {
 
-    var numArray = [5, 3, 7, 8, 2, 6];
+//RENDERING BUBBLESORT TO HTML
 
-    var setIntitalElements = function() {
+   /* var setIntitalElements = function() {
         var container = document.getElementById('container');
         console.log('testing');
         for (var i = 0; i < numArray.length; i++) {
@@ -11,12 +11,12 @@ window.onload = function() {
             container.appendChild(divs);
         }
     };
-    setIntitalElements();
-
-
+    setIntitalElements(bubblesort(numArray));
 
 
 };
+
+//ITERATING THROUGH ARRAY
 
 var bubblesort = function(numArray) {
 
@@ -37,6 +37,8 @@ var bubblesort = function(numArray) {
     return numArray;
 };
 
+//SWAPPING NUMBERS
+
 var swapNumbers = function(numArray, num1, num2) {
 
     var temp = numArray[num1];
@@ -44,16 +46,23 @@ var swapNumbers = function(numArray, num1, num2) {
     numArray[num1] = temp2;
     numArray[num2] = temp;
 
+};*/
+
+var numArray = [5, 3, 7, 8, 2, 6, 23, 9, 10];
+
+var quickSort = function(numArray){
+
+	var pivot = numArray.length / 2;
+	var left = [];
+	var right = [];
+
+	console.log(pivot);
+	
+	};
+
+
 };
 
-/*console.log(bubblesort(numArray));
- */
 
 
 
-
-
-
-
-
-//module.exports = bubblesort;
